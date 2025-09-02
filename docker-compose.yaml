@@ -1,0 +1,7 @@
+
+services:
+  web:
+    image: jrwagz/simple-web-server:latest
+    container_name: simple-web-server
+    ports:
+      - "34537:80" # 34537 is FILES mapped to phone keypad
